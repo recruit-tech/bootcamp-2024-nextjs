@@ -1,0 +1,19 @@
+"use client";
+
+import { Button } from "@/components/Button";
+import { PageMain } from "@/components/PageMain";
+import { PageTitle } from "@/components/PageTitle";
+
+export default function ErrorDelete({
+  reset,
+}: {
+  error: Error & { digest?: string };
+  reset: () => void;
+}) {
+  return (
+    <PageMain>
+      <PageTitle>更新に失敗しました。</PageTitle>
+      <Button onClick={() => reset()}>リセット</Button>
+    </PageMain>
+  );
+}

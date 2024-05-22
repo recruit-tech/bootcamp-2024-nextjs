@@ -1,0 +1,16 @@
+.link {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.primary {
+  background-color: var(--blue);
+}
+
+.secondary {
+  background-color: var(--gray);
+}

@@ -1,0 +1,24 @@
+.link {
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--blue);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.link:hover {
+  opacity: 0.8;
+}
+
+.primary {
+  background-color: var(--blue);
+}
+
+.secondary {
+  background-color: var(--gray);
+}
