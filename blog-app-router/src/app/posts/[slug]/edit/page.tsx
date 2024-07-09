@@ -8,11 +8,7 @@ import { ButtonGroup } from "@/components/ButtonGroup";
 import { LinkButton } from "@/components/LinkButton";
 import { Button } from "@/components/Button";
 
-export default async function Page({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export default async function Page({ params }: { params: { slug: string } }) {
   const { data } = await getPost(params.slug);
   if (!data) {
     return notFound();
@@ -56,7 +52,7 @@ export default async function Page({
             </tr>
             <tr>
               <th>
-                <label htmlFor="doby">本文</label>
+                <label htmlFor="body">本文</label>
               </th>
               <td>
                 <textarea

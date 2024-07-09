@@ -41,7 +41,7 @@ export default function Page() {
             </tr>
             <tr>
               <th>
-                <label htmlFor="doby">本文</label>
+                <label htmlFor="body">本文</label>
               </th>
               <td>
                 <textarea className={styles.textarea} name="body" id="body" />

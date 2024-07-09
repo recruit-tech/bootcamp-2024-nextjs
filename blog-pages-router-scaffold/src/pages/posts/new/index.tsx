@@ -42,7 +42,7 @@ export default function Page() {
             </tr>
             <tr>
               <th>
-                <label htmlFor="doby">本文</label>
+                <label htmlFor="body">本文</label>
               </th>
               <td>
                 {/* 📌:5-14 「本文」が入力できるようにしてみよう（<textarea/> を使用） */}

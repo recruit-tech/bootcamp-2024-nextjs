@@ -54,7 +54,7 @@ export default function Page(props: PageProps) {
             </tr>
             <tr>
               <th>
-                <label htmlFor="doby">本文</label>
+                <label htmlFor="body">本文</label>
               </th>
               <td>
                 {/* 📌:5-22 「本文」が入力できるようにしてみよう（<textarea/> を使用） */}
@@ -73,7 +73,7 @@ export default function Page(props: PageProps) {
 }
 
 export const getServerSideProps: GetServerSideProps<PageProps> = async (
-  ctx,
+  ctx
 ) => {
   // 📌:5-18 "as string" を消して、不正なリクエスト時にはエラーを throw するようにしてみましょう
   const slug = ctx.query.slug as string;
