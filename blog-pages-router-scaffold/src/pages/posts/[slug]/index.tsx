@@ -18,7 +18,7 @@ export default function Page(props: PageProps) {
   // event: React.MouseEvent<HTMLButtonElement>
   // ) => {
   // event.preventDefault();
-  // // 📌:5-10 データ取得関数　（@/fetchers/client/deletePost）を使用して、記事を削除する処理を実装してみましょう
+  // // 📌:5-10 データ削除関数　（@/fetchers/client/deletePost）を使用して、記事を削除する処理を実装してみましょう
   // // 📌:5-11 削除後は、記事一覧ページにリダイレクトするようにしてください
   // };
   console.log(props.post);
