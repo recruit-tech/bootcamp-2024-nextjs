@@ -1,0 +1,29 @@
+.table {
+  width: 720px;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.table td,
+.table th {
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+
+.table th {
+  width: 140px;
+}
+
+.inputText {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid var(--lightGray);
+}
+
+.textarea {
+  width: 100%;
+  height: 240px;
+  padding: 1em;
+  line-height: 1.4;
+  border: 1px solid var(--lightGray);
+}
