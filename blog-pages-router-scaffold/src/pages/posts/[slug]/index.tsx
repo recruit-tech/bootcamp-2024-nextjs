@@ -18,7 +18,7 @@ export default function Page(props: PageProps) {
   // event: React.MouseEvent<HTMLButtonElement>
   // ) => {
   // event.preventDefault();
-  // // 📌:5-10 データ取得関数　（@/fetchers/server/deletePost）を使用して、記事を削除する処理を実装してみましょう
+  // // 📌:5-10 データ取得関数　（@/fetchers/client/deletePost）を使用して、記事を削除する処理を実装してみましょう
   // // 📌:5-11 削除後は、記事一覧ページにリダイレクトするようにしてください
   // };
   console.log(props.post);
@@ -36,7 +36,7 @@ export default function Page(props: PageProps) {
 }
 
 export const getServerSideProps: GetServerSideProps<PageProps> = async (
-  ctx,
+  ctx
 ) => {
   // 📌:5-4 "as string" を消して、不正なリクエスト時にはエラーを throw するようにしてみましょう
   const slug = ctx.query.slug as string;
